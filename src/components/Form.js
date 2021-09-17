@@ -62,7 +62,12 @@ const Form = () => {
 
       <div>
         <Fade bottom={true}>
-          <form name='Sona Angels contact form' netlify>
+          <form name='Sona Angels contact form' method='post'>
+            <input
+              type='hidden'
+              name='form-name'
+              value='Sona Angels contact form'
+            />
             <div className='flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-16 mt-6 lg:mt-2 mx-1'>
               <div className='space-y-4 lg:space-y-8'>
                 <div className='space-y-2 lg:space-y-4 input-group'>
