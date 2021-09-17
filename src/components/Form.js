@@ -69,6 +69,7 @@ const Form = () => {
                   <p className='font-display font-bold text-[#C4C4C4]'>Name</p>
                   <input
                     type='text'
+                    required
                     name='name'
                     className='w-full lg:w-[484px] lg:h-[75px] text-base lg:text-lg p-3 lg:p-4 rounded-xl shadow-md lg:shadow-lg border border-[#C4C4C4] focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-colors duration-200'
                   />
@@ -76,6 +77,7 @@ const Form = () => {
                 <div className='space-y-2 lg:space-y-4 input-group'>
                   <p className='font-display font-bold text-[#C4C4C4]'>Email</p>
                   <input
+                    required
                     type='email'
                     name='email'
                     className='w-full lg:w-[484px] lg:h-[75px] text-base lg:text-lg p-3 lg:p-4 rounded-xl shadow-md lg:shadow-lg border border-[#C4C4C4] focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-colors duration-200'
@@ -85,6 +87,7 @@ const Form = () => {
               <div className='space-y-2  lg:space-y-4 flex-1 input-group'>
                 <p className='font-display font-bold text-[#C4C4C4]'>Message</p>
                 <textarea
+                  required
                   name='message'
                   className='w-full h-40 lg:h-[223px] text-base lg:text-lg px-3 lg:px-4 py-3 leading-relaxed rounded-xl shadow-md lg:shadow-lg border border-[#C4C4C4] focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-colors duration-200'
                 ></textarea>
