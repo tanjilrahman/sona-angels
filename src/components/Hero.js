@@ -59,7 +59,7 @@ const Hero = () => {
 
       {/* Hero text section */}
 
-      <Fade left={true}>
+      <Fade left={true} cascade duration={800}>
         <div className='col-span-3 z-20'>
           <svg
             viewBox='0 0 84 17'

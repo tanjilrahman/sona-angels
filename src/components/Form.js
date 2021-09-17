@@ -22,7 +22,7 @@ const Form = () => {
 
         {/* Text section */}
 
-        <Fade left={true}>
+        <Fade left={true} cascade duration={800}>
           <div className='mt-10 lg:mt-0'>
             <p className='font-display font-semibold text-base lg:text-lg text-primary uppercase tracking-wider'>
               Become A Member
@@ -61,14 +61,14 @@ const Form = () => {
       {/* Form section */}
 
       <div>
-        <Fade bottom={true}>
-          <form name='Sona Angels contact form' method='post'>
-            <input
-              type='hidden'
-              name='form-name'
-              value='Sona Angels contact form'
-            />
-            <div className='flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-16 mt-6 lg:mt-2 mx-1'>
+        <form name='Sona Angels contact form' method='post'>
+          <input
+            type='hidden'
+            name='form-name'
+            value='Sona Angels contact form'
+          />
+          <div className='flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-16 mt-6 lg:mt-2 mx-1'>
+            <Fade left={true}>
               <div className='space-y-4 lg:space-y-8'>
                 <div className='space-y-2 lg:space-y-4 input-group'>
                   <p className='font-display font-bold text-[#C4C4C4]'>Name</p>
@@ -89,6 +89,8 @@ const Form = () => {
                   />
                 </div>
               </div>
+            </Fade>
+            <Fade right={true}>
               <div className='space-y-2  lg:space-y-4 flex-1 input-group'>
                 <p className='font-display font-bold text-[#C4C4C4]'>Message</p>
                 <textarea
@@ -97,7 +99,9 @@ const Form = () => {
                   className='w-full h-40 lg:h-[223px] text-base lg:text-lg px-3 lg:px-4 py-3 leading-relaxed rounded-xl shadow-md lg:shadow-lg border border-[#C4C4C4] focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-colors duration-200'
                 ></textarea>
               </div>
-            </div>
+            </Fade>
+          </div>
+          <Fade right={true}>
             <button type='submit' className='block ml-auto mt-6 lg:mt-10'>
               <div className='btn'>
                 <div className='m-auto'>
@@ -105,8 +109,8 @@ const Form = () => {
                 </div>
               </div>
             </button>
-          </form>
-        </Fade>
+          </Fade>
+        </form>
       </div>
     </div>
   );

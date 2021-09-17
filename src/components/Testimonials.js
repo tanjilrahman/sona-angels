@@ -50,7 +50,7 @@ const Testimonials = () => {
           </div>
         </div>
       </Fade>
-      <Fade right={true}>
+      <Fade right={true} cascade duration={800}>
         <div className='mt-10 lg:mt-0'>
           <p className='font-display font-semibold text-base md:text-lg text-primary uppercase tracking-wider'>
             Testimonials

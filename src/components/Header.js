@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Fade from 'react-reveal/Fade';
 
 const Header = () => {
   const [scroll, setScroll] = useState(false);
@@ -24,53 +25,56 @@ const Header = () => {
         scroll && 'border-b'
       }`}
     >
-      <div
-        className={`${
-          menuIsOpen ? 'block' : 'hidden'
-        } absolute top-full h-screen w-screen bg-white z-50`}
-      >
-        <div className='flex flex-col items-center mt-20 space-y-8'>
-          <a
-            href='#about'
-            className='relative nav hover:text-primary transition-colors duration-200'
-            onClick={() => setMenuIsOpen(false)}
-          >
-            <span className='nav-link'>ABOUT</span>
-          </a>
-          <a
-            href='#vision'
-            className='relative nav hover:text-primary transition-colors duration-200'
-            onClick={() => setMenuIsOpen(false)}
-          >
-            <span className='nav-link'>VISIONS</span>
-          </a>
-          {/* <a
+      <Fade left={true} duration={500} opposite when={menuIsOpen}>
+        <div
+          className={`${
+            menuIsOpen ? 'block' : 'hidden'
+          } absolute top-full h-screen w-screen bg-white z-50`}
+        >
+          <div className='flex flex-col items-center mt-20 space-y-9'>
+            <a
+              href='#about'
+              className='relative nav hover:text-primary transition-colors duration-200'
+              onClick={() => setMenuIsOpen(false)}
+            >
+              <span className='nav-link'>ABOUT</span>
+            </a>
+            <a
+              href='#vision'
+              className='relative nav hover:text-primary transition-colors duration-200'
+              onClick={() => setMenuIsOpen(false)}
+            >
+              <span className='nav-link'>VISIONS</span>
+            </a>
+            {/* <a
             href='#testimonials'
             className='relative nav hover:text-primary transition-colors duration-200'
             onClick={() => setMenuIsOpen(false)}
           >
             <span className='nav-link'>TESTIMONIALS</span>
           </a> */}
-          <a
-            href='https://www.sonajewelers.com/'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='relative nav hover:text-primary transition-colors duration-200'
-            onClick={() => setMenuIsOpen(false)}
-          >
-            <span className='nav-link'>Sona Jewelers</span>
-          </a>
-          <a
-            href='#contact'
-            className='btn'
-            onClick={() => setMenuIsOpen(false)}
-          >
-            <div className='m-auto'>
-              <p>Contact Us</p>
-            </div>
-          </a>
+            <a
+              href='https://www.sonajewelers.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='relative nav hover:text-primary transition-colors duration-200'
+              onClick={() => setMenuIsOpen(false)}
+            >
+              <span className='nav-link uppercase'>Sona Jewelers</span>
+            </a>
+            <a
+              href='#contact'
+              className='btn'
+              onClick={() => setMenuIsOpen(false)}
+            >
+              <div className='m-auto'>
+                <p>Contact Us</p>
+              </div>
+            </a>
+          </div>
         </div>
-      </div>
+      </Fade>
+
       <div className='max-w-screen-xl mx-auto px-4 md:px-10 xl:px-0 flex items-center relative'>
         <div className='lg:hidden'>
           {menuIsOpen ? (
