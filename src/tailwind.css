@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@500;600;700&display=swap');
+
+@layer components {
+  html {
+    scroll-behavior: smooth;
+  }
+  .mobframe {
+    clip-path: path(
+      'M0 157.203C0 70.3822 70.3822 0 157.203 0V0C244.024 0 314.406 70.3822 314.406 157.203V400H0V157.203Z'
+    );
+  }
+  .frame {
+    clip-path: path(
+      'M0 238.2C0 106.646 106.646 0 238.2 0V0C369.754 0 476.4 106.646 476.4 238.2V640H0V238.2Z'
+    );
+  }
+  .frame-2 {
+    clip-path: path(
+      'M4 225C4 100.736 104.736 0 229 0V0C353.264 0 454 100.736 454 225V852H4V225Z'
+    );
+  }
+  .frame-3 {
+    clip-path: path(
+      'M4 217C4 97.1542 101.154 0 221 0V0C340.846 0 438 97.1542 438 217V603H4V217Z'
+    );
+  }
+  .verticaltext {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+  }
+  .btn {
+    @apply w-32 h-10 md:w-44 md:h-12 bg-primary text-white rounded-full flex hover:bg-transparent hover:text-primary hover:border-2 hover:border-primary cursor-pointer duration-300 ease-in-out active:scale-90;
+    transition-property: transform, background-color, border-color, color, fill,
+      stroke;
+  }
+  .btn-2 {
+    @apply w-44 h-10 md:w-52 md:h-12 bg-primary text-white rounded-full flex hover:bg-transparent hover:text-primary hover:border-2 hover:border-primary cursor-pointer duration-300 ease-in-out active:scale-90;
+    transition-property: transform, background-color, border-color, color, fill,
+      stroke;
+  }
+  .input-group:focus-within p {
+    @apply text-primary transition-colors duration-150;
+  }
+  .nav:hover span:after {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+  .nav-link:after {
+    @apply bg-primary;
+    content: '';
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -6px;
+    transform-origin: left center;
+    transition: all 200ms ease-out;
+    opacity: 0;
+    transform: scaleX(0);
+  }
+}
