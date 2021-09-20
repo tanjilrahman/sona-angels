@@ -45,6 +45,15 @@ const Footer = () => {
               <img loading='lazy' src='/images/twitter.svg' alt='' />
               <p>Twitter</p>
             </a>
+            <a
+              href='https://www.pinterest.com/sonajewelers/'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='flex space-x-3 hover:underline'
+            >
+              <img loading='lazy' src='/images/pinterest.svg' alt='' />
+              <p>Pinterest</p>
+            </a>
           </div>
         </div>
 

@@ -81,19 +81,34 @@ const Hero = () => {
             <br className='hidden lg:block' /> woman leaders in New Jersey
           </p>
           <div className='hidden lg:block absolute lg:h-[102px] lg:w-[777px] mt-6 lg:mt-20 rounded-full bg-[#F3F3F3] backdrop-blur-sm opacity-70' />
-          <div className='relative h-16 lg:h-[102px] lg:w-[777px] mt-2 lg:mt-20 rounded-full flex md:flex-row flex-col justify-between md:items-center lg:px-6 text-sm md:text-base space-y-5 md:space-y-0'>
-            <div className='flex space-x-2 md:space-x-3 md:text-lg items-center'>
+          <div className='relative h-16 lg:h-[102px] lg:w-[777px] mt-2 lg:mt-20 rounded-full flex md:flex-row flex-col justify-between md:items-center lg:px-6 space-y-3 md:space-y-0 md:space-x-6 leading-relaxed'>
+            <div className='flex space-x-2 md:space-x-4 items-center'>
               <img
                 loading='lazy'
                 src='/images/location-icon.svg'
                 alt=''
-                className='h-6 md:h-8'
+                className='h-7 md:h-8 mr-2 md:mr-0'
               />
-              <p>6 Marconi Ave, Iselin, NJ 08830, United States</p>
+              <p>
+                6 Marconi Ave, Iselin, NJ 08830, <br /> United States
+              </p>
             </div>
-            {/* <div className='hidden lg:block'>
-              <p>United States</p>
-            </div> */}
+            <div className='flex space-x-2 md:space-x-4 items-center'>
+              <img
+                loading='lazy'
+                src='/images/call_black_24dp.svg'
+                alt=''
+                className='h-7 md:h-8'
+              />
+              <p className='flex flex-col'>
+                <a href='tel:+1 7322832501' className='hover:underline'>
+                  +1 7322832501
+                </a>
+                <a href='tel:+1 7322832607' className='hover:underline'>
+                  +1 7322832607
+                </a>
+              </p>
+            </div>
             <div className='ml-auto'>
               <a
                 href='#contact'

@@ -882,8 +882,8 @@ html {
 .mt-8 {
 	margin-top: 2rem;
 }
-.mt-20 {
-	margin-top: 5rem;
+.mt-40 {
+	margin-top: 10rem;
 }
 .ml-\[8px\] {
 	margin-left: 8px;
@@ -893,6 +893,9 @@ html {
 }
 .mt-6 {
 	margin-top: 1.5rem;
+}
+.mt-20 {
+	margin-top: 5rem;
 }
 .mt-16 {
 	margin-top: 4rem;
@@ -911,6 +914,9 @@ html {
 }
 .mt-2 {
 	margin-top: 0.5rem;
+}
+.mr-2 {
+	margin-right: 0.5rem;
 }
 .ml-6 {
 	margin-left: 1.5rem;
@@ -987,8 +993,8 @@ html {
 .h-16 {
 	height: 4rem;
 }
-.h-6 {
-	height: 1.5rem;
+.h-7 {
+	height: 1.75rem;
 }
 .h-\[660px\] {
 	height: 660px;
@@ -1162,10 +1168,10 @@ html {
 	margin-right: calc(2rem * var(--tw-space-x-reverse));
 	margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
 }
-.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+.space-y-3 > :not([hidden]) ~ :not([hidden]) {
 	--tw-space-y-reverse: 0;
-	margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
-	margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+	margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+	margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
 }
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
 	--tw-space-x-reverse: 0;
@@ -1303,12 +1309,12 @@ html {
 	font-size: 1.125rem;
 	line-height: 1.75rem;
 }
+.text-\[40px\] {
+	font-size: 40px;
+}
 .text-sm {
 	font-size: 0.875rem;
 	line-height: 1.25rem;
-}
-.text-\[40px\] {
-	font-size: 40px;
 }
 .font-semibold {
 	font-weight: 600;
@@ -1448,6 +1454,10 @@ html {
 		right: 8rem;
 	}
 
+	.md\:mr-0 {
+		margin-right: 0px;
+	}
+
 	.md\:mt-4 {
 		margin-top: 1rem;
 	}
@@ -1538,20 +1548,21 @@ html {
 		margin-bottom: calc(0px * var(--tw-space-y-reverse));
 	}
 
-	.md\:space-x-3 > :not([hidden]) ~ :not([hidden]) {
+	.md\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
 		--tw-space-x-reverse: 0;
-		margin-right: calc(0.75rem * var(--tw-space-x-reverse));
-		margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+		margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+		margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+	}
+
+	.md\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
+		--tw-space-x-reverse: 0;
+		margin-right: calc(1rem * var(--tw-space-x-reverse));
+		margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 	}
 
 	.md\:px-10 {
 		padding-left: 2.5rem;
 		padding-right: 2.5rem;
-	}
-
-	.md\:text-base {
-		font-size: 1rem;
-		line-height: 1.5rem;
 	}
 
 	.md\:text-lg {

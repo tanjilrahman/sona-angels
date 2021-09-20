@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 const Form = () => {
   return (
     <div id='contact'>
-      <div className='grid grid-cols-1 lg:grid-cols-2 items-center mt-20 lg:mt-28'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 items-center mt-40 lg:mt-28'>
         {/* Mobile image section */}
 
         <div className='lg:hidden relative w-full ml-[8px]'>
