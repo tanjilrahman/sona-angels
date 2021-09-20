@@ -13,13 +13,19 @@ function App() {
           Sona Angels, Join an elite group Full of talented and impressive South
           Asian woman leaders in New Jersey
         </title>
-        <meta name='description' content='Sona Angels' />
+        <meta
+          name='description'
+          content='A family owned business in the heart of New Jersey aiming to empower women with the finest pieces of Indian jewelry.'
+        />
 
         <meta
           itemprop='name'
           content='Sona Angels, Join an elite group Full of talented and impressive South Asian woman leaders in New Jersey'
         />
-        <meta itemprop='description' content='Sona Angels' />
+        <meta
+          itemprop='description'
+          content='A family owned business in the heart of New Jersey aiming to empower women with the finest pieces of Indian jewelry.'
+        />
         <meta itemprop='image' content='/sonalogofinalnew_400x.webp' />
 
         <meta property='og:url' content='https://www.sonajewelers.com' />
@@ -28,7 +34,10 @@ function App() {
           property='og:title'
           content='Sona Angels, Join an elite group Full of talented and impressive South Asian woman leaders in New Jersey'
         />
-        <meta property='og:description' content='Sona Angels' />
+        <meta
+          property='og:description'
+          content='A family owned business in the heart of New Jersey aiming to empower women with the finest pieces of Indian jewelry.'
+        />
         <meta property='og:image' content='/sonalogofinalnew_400x.webp' />
 
         <meta name='twitter:card' content='summary_large_image' />
@@ -36,7 +45,10 @@ function App() {
           name='twitter:title'
           content='Sona Angels, Join an elite group Full of talented and impressive South Asian woman leaders in New Jersey'
         />
-        <meta name='twitter:description' content='Sona Angels' />
+        <meta
+          name='twitter:description'
+          content='A family owned business in the heart of New Jersey aiming to empower women with the finest pieces of Indian jewelry.'
+        />
         <meta name='twitter:image' content='/sonalogofinalnew_400x.webp' />
       </Helmet>
 
