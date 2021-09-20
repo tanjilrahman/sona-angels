@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 const Form = () => {
   return (
     <div id='contact'>
-      <div className='grid grid-cols-1 lg:grid-cols-2 items-center mt-16 lg:mt-28'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 items-center mt-20 lg:mt-28'>
         {/* Mobile image section */}
 
         <div className='lg:hidden relative w-full ml-[8px]'>
@@ -31,10 +31,11 @@ const Form = () => {
               Ready to try different work environment now?
             </h4>
             <p className='leading-loose mt-4 lg:mt-8 lg:pr-10'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Sona Jewelers is proud to present a healthy and positive work
+              environment for its aspiring angels where individual contributions
+              are valued and appreciated. Join us now to experience a whole new
+              kind of work environment where we will help you achieve your true
+              potential.
             </p>
           </div>
         </Fade>

@@ -26,25 +26,29 @@ const Testimonials = () => {
                 name='Chhavi Verg'
                 handel='@chhaviverg'
                 profileLink='https://www.instagram.com/chhaviverg/'
-                testimonial='Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Perspiciatis odit ducimus fugiat nesciunt, voluptatibus
-                    doloribus nihil voluptatem aliquid consequatur ab? Rem,
-                    voluptatem alias! Facilis vero dolorem, tempore distinctio
-                    quibusdam hic.'
+                testimonial='As a new model, I was skeptical to work with Sona Jewelers, but
+                my friends and colleagues highly recommended me to work with
+                them. Together, we managed to pull off a successful campaign
+                that performed beyond my wildest expectations!'
               />
               <TestimonialCard
                 image='/images/IMG_6908.JPG'
                 name='Sanya Arora'
                 handel='@sankissedskin'
                 profileLink='https://www.instagram.com/sankissedskin/'
-                testimonial='Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sint facilis asperiores vitae cum velit dolorem? Tempora, unde, nostrum quia neque praesentium placeat non exercitationem reprehenderit laborum impedit ratione obcaecati.'
+                testimonial='When it comes to bringing the best out of a model, Sona takes the
+                cake! They have enabled me, coached me and given me the
+                confidence to express myself to the fullest.'
               />
               <TestimonialCard
                 image='/images/IMG_6907.JPG'
                 name='Manya'
                 handel='@manyasaaraswat'
                 profileLink='https://www.instagram.com/manyasaaraswat/'
-                testimonial='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore deleniti eaque perferendis, corporis repellat ducimus obcaecati quos, ipsa quibusdam, nam esse sed dignissimos atque? Sequi iure sapiente a distinctio officiis!'
+                testimonial='It was a treat working for Sona Jewelers! They practically did
+                everything – with almost no time or effort for me! The best part
+                was that I could completely trust their team to represent my work
+                in the utmost professional manner.'
               />
             </Carousel>
           </div>
@@ -56,13 +60,13 @@ const Testimonials = () => {
             Testimonials
           </p>
           <h4 className='font-display leading-normal lg:leading-normal text-3xl lg:text-5xl lg:mt-3'>
-            Lorem ipsum dolor sit
+            Hear from the Sona Angels
           </h4>
           <p className='leading-loose mt-4 lg:mt-8 lg:pr-10'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
-            beatae doloribus alias soluta facere. Nesciunt libero fuga porro
-            itaque debitis nostrum voluptates soluta, labore ullam harum
-            tempora, neque odio exercitationem.
+            We at Sona Jewelers love to work with aspiring angels from the South
+            Asian community. We work with leaders who love to empower women
+            through their work. Hear from the people who have already work with
+            us about the experience of being a Sona Angel.
           </p>
           <a href='#contact' className='btn-2 mt-10'>
             <div className='m-auto'>

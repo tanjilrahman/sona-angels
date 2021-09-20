@@ -2,11 +2,11 @@ import Fade from 'react-reveal/Fade';
 
 const Thankyou = () => {
   return (
-    <div className='grid grid-cols-1 lg:grid-cols-2 items-center mt-20 lg:mt-32 overflow-y-hidden'>
+    <div className='grid grid-cols-1 lg:grid-cols-2 items-center mt-20 lg:mt-32'>
       {/* Mobile image section */}
 
       <Fade right={true}>
-        <div className='lg:hidden overflow-y-hidden'>
+        <div className='lg:hidden'>
           <img
             loading='lazy'
             src='/images/DSK_9459-Edit.jpg'
@@ -19,7 +19,7 @@ const Thankyou = () => {
       {/* Text section */}
 
       <Fade left={true} cascade duration={800}>
-        <div className='overflow-y-hidden mt-6 lg:mt-0'>
+        <div className='mt-6 lg:mt-0'>
           <p className='font-display font-semibold text-base lg:text-lg text-primary uppercase tracking-wider'>
             Thank YoU
           </p>
@@ -43,7 +43,7 @@ const Thankyou = () => {
       {/* Desktop image section */}
 
       <Fade right={true}>
-        <div className='hidden lg:block overflow-y-hidden'>
+        <div className='hidden lg:block '>
           <img
             loading='lazy'
             src='/images/DSK_9459-Edit.jpg'

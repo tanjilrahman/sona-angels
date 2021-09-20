@@ -41,7 +41,7 @@ function App() {
       </Helmet>
 
       <Header />
-      <div className='md:max-w-screen-sm lg:max-w-screen-xl mx-auto px-4 xl:px-0 overflow-y-hidden'>
+      <div className='md:max-w-screen-sm lg:max-w-screen-xl mx-auto px-4 xl:px-0 overflow-x-hidden'>
         <Hero />
         <Body />
       </div>

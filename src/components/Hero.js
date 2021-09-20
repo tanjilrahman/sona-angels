@@ -81,15 +81,20 @@ const Hero = () => {
             <br className='hidden lg:block' /> woman leaders in New Jersey
           </p>
           <div className='hidden lg:block absolute lg:h-[102px] lg:w-[777px] mt-6 lg:mt-20 rounded-full bg-[#F3F3F3] backdrop-blur-sm opacity-70' />
-          <div className='relative h-16 lg:h-[102px] lg:w-[777px] mt-4 lg:mt-20 rounded-full flex justify-between items-center px-2 lg:px-6 text-sm md:text-base'>
-            <div className='flex space-x-2'>
-              <img loading='lazy' src='/images/location-icon.svg' alt='' />
-              <p>New Jersey</p>
+          <div className='relative h-16 lg:h-[102px] lg:w-[777px] mt-2 lg:mt-20 rounded-full flex md:flex-row flex-col justify-between md:items-center lg:px-6 text-sm md:text-base space-y-5 md:space-y-0'>
+            <div className='flex space-x-2 md:space-x-3 md:text-lg items-center'>
+              <img
+                loading='lazy'
+                src='/images/location-icon.svg'
+                alt=''
+                className='h-6 md:h-8'
+              />
+              <p>6 Marconi Ave, Iselin, NJ 08830, United States</p>
             </div>
-            <div className='hidden lg:block'>
+            {/* <div className='hidden lg:block'>
               <p>United States</p>
-            </div>
-            <div>
+            </div> */}
+            <div className='ml-auto'>
               <a
                 href='#contact'
                 className='md:w-[176.56px] md:h-[56.42px] lg:btn btn-2'

@@ -12,8 +12,8 @@ const Footer = () => {
               className='h-20 mr-auto'
             />
             <p className='pt-4'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quo
-              culpa dolor dolores.
+              A family owned business in the heart of New Jersey aiming to
+              empower women with the finest pieces of Indian jewelry.
             </p>
           </div>
 
