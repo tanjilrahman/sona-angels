@@ -12,10 +12,10 @@ const Testimonials = () => {
     >
       <Fade left={true}>
         <div className='relative lg:ml-4'>
-          <div className='w-full h-[470px] lg:w-[504px] md:h-[650px] rounded-t-full border-2 border-b-0 border-primary absolute -top-4' />
-          <div className='lg:frame w-full h-[470px] lg:w-[476.4px] md:h-[650px] rounded-t-full  object-cover ml-[13.8px]'>
+          <div className='w-full h-[490px] lg:w-[504px] md:h-[650px] rounded-t-full border-2 border-b-0 border-primary absolute -top-4' />
+          <div className='lg:frame w-full h-[490px] lg:w-[476.4px] md:h-[650px] rounded-t-full  object-cover ml-[13.8px]'>
             <Carousel
-              className='w-11/12 h-[470px] lg:w-[476.4px] md:h-[650px] rounded-t-full lg:rounded-t-none object-cover'
+              className='w-11/12 h-[490px] lg:w-[476.4px] md:h-[650px] rounded-t-full lg:rounded-t-none object-cover'
               infiniteLoop={true}
               autoPlay={true}
               showThumbs={false}

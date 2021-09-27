@@ -1,6 +1,6 @@
 const TestimonialCard = ({ image, testimonial, name, handel, profileLink }) => {
   return (
-    <div className='relative w-full h-[470px] lg:w-[476.4px] md:h-[650px]'>
+    <div className='relative w-full h-[490px] lg:w-[476.4px] md:h-[650px]'>
       <img
         loading='lazy'
         src={image}
