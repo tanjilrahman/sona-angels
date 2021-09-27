@@ -1,20 +1,20 @@
 const TestimonialCard = ({ image, testimonial, name, handel, profileLink }) => {
   return (
-    <div className='relative w-full h-[490px] lg:w-[476.4px] md:h-[650px]'>
+    <div className='relative w-full h-[460px] lg:w-[476.4px] md:h-[650px]'>
       <img
         loading='lazy'
         src={image}
         alt=''
-        className='w-full h-2/5 md:h-[45%] rounded-t-full lg:rounded-t-none object-cover object-top'
+        className='w-full h-[35%] md:h-[45%] rounded-t-full lg:rounded-t-none object-cover object-top'
       />
       <img
         loading='lazy'
         src='/images/quote.svg'
         alt=''
-        className='absolute top-[146px] -left-28 md:top-[235px] md:-left-56 lg:-left-40 h-16 w-16 md:h-28 md:w-28'
+        className='absolute top-[130px] -left-28 md:top-[235px] md:-left-56 lg:-left-40 h-16 w-16 md:h-28 md:w-28'
       />
 
-      <div className='text-left mt-2 md:mt-4 p-2 lg:p-4'>
+      <div className='text-left mt-3 md:mt-6 p-2 lg:p-4'>
         <p className=' lg:leading-relaxed text-sm md:text-lg text-gray-600'>
           {testimonial}
         </p>

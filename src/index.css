@@ -793,8 +793,8 @@ html {
 .left-\[485px\] {
 	left: 485px;
 }
-.top-\[146px\] {
-	top: 146px;
+.top-\[130px\] {
+	top: 130px;
 }
 .-left-28 {
 	left: -7rem;
@@ -1005,11 +1005,11 @@ html {
 .h-\[141px\] {
 	height: 141px;
 }
-.h-\[470px\] {
-	height: 470px;
+.h-\[460px\] {
+	height: 460px;
 }
-.h-2\/5 {
-	height: 40%;
+.h-\[35\%\] {
+	height: 35%;
 }
 .h-5 {
 	height: 1.25rem;
@@ -1461,8 +1461,8 @@ html {
 		margin-right: 0px;
 	}
 
-	.md\:mt-4 {
-		margin-top: 1rem;
+	.md\:mt-6 {
+		margin-top: 1.5rem;
 	}
 
 	.md\:mb-\[550px\] {
