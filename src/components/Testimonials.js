@@ -12,10 +12,10 @@ const Testimonials = () => {
     >
       <Fade left={true}>
         <div className='relative lg:ml-4'>
-          <div className='w-full h-[400px] lg:w-[504px] md:h-[640px] rounded-t-full border-2 border-b-0 border-primary absolute -top-4' />
-          <div className='lg:frame w-full h-[400px] lg:w-[476.4px] md:h-[640px] rounded-t-full  object-cover ml-[13.8px]'>
+          <div className='w-full h-[450px] lg:w-[504px] md:h-[650px] rounded-t-full border-2 border-b-0 border-primary absolute -top-4' />
+          <div className='lg:frame w-full h-[450px] lg:w-[476.4px] md:h-[650px] rounded-t-full  object-cover ml-[13.8px]'>
             <Carousel
-              className='w-11/12 h-[400px] lg:w-[476.4px] md:h-[640px] rounded-t-full lg:rounded-t-none object-cover'
+              className='w-11/12 h-[450px] lg:w-[476.4px] md:h-[650px] rounded-t-full lg:rounded-t-none object-cover'
               infiniteLoop={true}
               autoPlay={true}
               showThumbs={false}
@@ -36,9 +36,7 @@ const Testimonials = () => {
                 name='Sanya Arora'
                 handel='@sankissedskin'
                 profileLink='https://www.instagram.com/sankissedskin/'
-                testimonial='When it comes to bringing the best out of a model, Sona takes the
-                cake! They have enabled me, coached me and given me the
-                confidence to express myself to the fullest.'
+                testimonial='Sona Jewelers has been a house hold name for as long as I can remember. Their quality has never diminished. Every time there’s a wedding, it’s a known thing to go to Sona to find the best pieces of jewelry for the events. Riz has also helped in taking the prestigious name forward through his own love for beautiful pieces and marketing etiquette. I can’t wait to visit again! ♥️'
               />
               <TestimonialCard
                 image='/images/IMG_6907.JPG'

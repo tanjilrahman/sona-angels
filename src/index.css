@@ -793,8 +793,8 @@ html {
 .left-\[485px\] {
 	left: 485px;
 }
-.top-32 {
-	top: 8rem;
+.top-\[146px\] {
+	top: 146px;
 }
 .-left-28 {
 	left: -7rem;
@@ -1005,14 +1005,14 @@ html {
 .h-\[141px\] {
 	height: 141px;
 }
+.h-\[450px\] {
+	height: 450px;
+}
 .h-2\/5 {
 	height: 40%;
 }
 .h-5 {
 	height: 1.25rem;
-}
-.h-\[450px\] {
-	height: 450px;
 }
 .h-\[710px\] {
 	height: 710px;
@@ -1250,8 +1250,8 @@ html {
 .p-3 {
 	padding: 0.75rem;
 }
-.p-4 {
-	padding: 1rem;
+.p-2 {
+	padding: 0.5rem;
 }
 .px-4 {
 	padding-left: 1rem;
@@ -1422,12 +1422,12 @@ html {
 		top: 16rem;
 	}
 
-	.md\:top-\[275px\] {
-		top: 275px;
+	.md\:top-\[235px\] {
+		top: 235px;
 	}
 
-	.md\:-left-52 {
-		left: -13rem;
+	.md\:-left-56 {
+		left: -14rem;
 	}
 
 	.md\:left-6 {
@@ -1494,8 +1494,12 @@ html {
 		height: 56.42px;
 	}
 
-	.md\:h-1\/2 {
-		height: 50%;
+	.md\:h-\[650px\] {
+		height: 650px;
+	}
+
+	.md\:h-\[45\%\] {
+		height: 45%;
 	}
 
 	.md\:h-28 {
@@ -1823,9 +1827,6 @@ html {
 	}
   .lg\:p-4 {
 		padding: 1rem;
-	}
-  .lg\:p-8 {
-		padding: 2rem;
 	}
   .lg\:px-4 {
 		padding-left: 1rem;
