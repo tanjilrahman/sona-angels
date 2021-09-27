@@ -1005,14 +1005,17 @@ html {
 .h-\[141px\] {
 	height: 141px;
 }
-.h-\[450px\] {
-	height: 450px;
+.h-\[470px\] {
+	height: 470px;
 }
 .h-2\/5 {
 	height: 40%;
 }
 .h-5 {
 	height: 1.25rem;
+}
+.h-\[450px\] {
+	height: 450px;
 }
 .h-\[710px\] {
 	height: 710px;
