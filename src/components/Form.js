@@ -62,7 +62,7 @@ const Form = () => {
       {/* Form section */}
 
       <div>
-        <form name='Sona Angels contact form' method='post'>
+        <form name='Sona Angels contact form' method='post' action='/success'>
           <input
             type='hidden'
             name='form-name'

@@ -1233,6 +1233,10 @@ html {
 	--tw-bg-opacity: 1;
 	background-color: rgba(243, 243, 243, var(--tw-bg-opacity));
 }
+.bg-primary {
+	--tw-bg-opacity: 1;
+	background-color: rgba(253, 91, 47, var(--tw-bg-opacity));
+}
 .bg-\[\#FFF3C8\] {
 	--tw-bg-opacity: 1;
 	background-color: rgba(255, 243, 200, var(--tw-bg-opacity));
@@ -1255,6 +1259,9 @@ html {
 }
 .p-2 {
 	padding: 0.5rem;
+}
+.p-6 {
+	padding: 1.5rem;
 }
 .px-4 {
 	padding-left: 1rem;
@@ -1314,6 +1321,10 @@ html {
 }
 .text-\[40px\] {
 	font-size: 40px;
+}
+.text-xl {
+	font-size: 1.25rem;
+	line-height: 1.75rem;
 }
 .text-sm {
 	font-size: 0.875rem;
@@ -1570,6 +1581,15 @@ html {
 	.md\:px-10 {
 		padding-left: 2.5rem;
 		padding-right: 2.5rem;
+	}
+
+	.md\:pr-4 {
+		padding-right: 1rem;
+	}
+
+	.md\:text-2xl {
+		font-size: 1.5rem;
+		line-height: 2rem;
 	}
 
 	.md\:text-lg {
