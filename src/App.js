@@ -11,7 +11,7 @@ function App() {
     <div>
       <Router>
         <Switch>
-          <Route path='/success' component={Success} />
+          <Route path='/thankyou' component={Success} />
           <Route path='/'>
             <div>
               <Header />
