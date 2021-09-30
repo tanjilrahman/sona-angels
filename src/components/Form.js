@@ -28,14 +28,15 @@ const Form = () => {
               Become A Member
             </p>
             <h4 className='font-display leading-normal lg:leading-normal text-3xl lg:text-5xl lg:mt-3'>
-              Ready to try different work environment now?
+              Ready to Pursue your Passion and Inspire others?
             </h4>
             <p className='leading-loose mt-4 lg:mt-8 lg:pr-10'>
               Sona Jewelers is proud to present a healthy and positive work
               environment for its aspiring angels where individual contributions
               are valued and appreciated. Join us now to experience a whole new
               kind of work environment where we will help you achieve your true
-              potential.
+              potential. Blog, Vlog, Model, Post about our Jewelry and latest
+              Trends in Fashion and Culture
             </p>
           </div>
         </Fade>
@@ -66,13 +67,14 @@ const Form = () => {
           name='Sona Angels contact form'
           method='post'
           action='/thankyou/?success=true'
+          className='space-y-4 lg:space-y-8'
         >
           <input
             type='hidden'
             name='form-name'
             value='Sona Angels contact form'
           />
-          <div className='flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-16 mt-6 lg:mt-2 mx-1'>
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:gap-16 mt-6 lg:mt-2 mx-1 space-y-4 lg:space-y-0'>
             <Fade left={true}>
               <div className='space-y-4 lg:space-y-8'>
                 <div className='space-y-2 lg:space-y-4 input-group'>
@@ -81,32 +83,58 @@ const Form = () => {
                     type='text'
                     required
                     name='name'
-                    className='w-full lg:w-[484px] lg:h-[75px] text-base lg:text-lg p-3 lg:p-4 rounded-xl shadow-md lg:shadow-lg border border-[#C4C4C4] focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-colors duration-200'
+                    className='w-full lg:h-[75px] text-base lg:text-lg p-3 lg:p-4 rounded-xl shadow-md lg:shadow-lg border border-[#C4C4C4] focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-colors duration-200'
                   />
                 </div>
                 <div className='space-y-2 lg:space-y-4 input-group'>
-                  <p className='font-display font-bold text-[#C4C4C4]'>Email</p>
+                  <p className='font-display font-bold text-[#C4C4C4]'>
+                    Cell Phone
+                  </p>
                   <input
                     required
-                    type='email'
-                    name='email'
-                    className='w-full lg:w-[484px] lg:h-[75px] text-base lg:text-lg p-3 lg:p-4 rounded-xl shadow-md lg:shadow-lg border border-[#C4C4C4] focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-colors duration-200'
+                    type='tel'
+                    name='phone'
+                    className='w-full lg:h-[75px] text-base lg:text-lg p-3 lg:p-4 rounded-xl shadow-md lg:shadow-lg border border-[#C4C4C4] focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-colors duration-200'
                   />
                 </div>
               </div>
             </Fade>
             <Fade right={true}>
-              <div className='space-y-2  lg:space-y-4 flex-1 input-group'>
-                <p className='font-display font-bold text-[#C4C4C4]'>Message</p>
-                <textarea
-                  required
-                  name='message'
-                  className='w-full h-40 lg:h-[223px] text-base lg:text-lg px-3 lg:px-4 py-3 leading-relaxed rounded-xl shadow-md lg:shadow-lg border border-[#C4C4C4] focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-colors duration-200'
-                ></textarea>
+              <div className='space-y-4 lg:space-y-8'>
+                <div className='space-y-2 lg:space-y-4 input-group'>
+                  <p className='font-display font-bold text-[#C4C4C4]'>Email</p>
+                  <input
+                    type='email'
+                    required
+                    name='email'
+                    className='w-full lg:h-[75px] text-base lg:text-lg p-3 lg:p-4 rounded-xl shadow-md lg:shadow-lg border border-[#C4C4C4] focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-colors duration-200'
+                  />
+                </div>
+                <div className='space-y-2 lg:space-y-4 input-group'>
+                  <p className='font-display font-bold text-[#C4C4C4]'>
+                    Instagram Handle
+                  </p>
+                  <input
+                    required
+                    type='text'
+                    name='instagram handle'
+                    className='w-full lg:h-[75px] text-base lg:text-lg p-3 lg:p-4 rounded-xl shadow-md lg:shadow-lg border border-[#C4C4C4] focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-colors duration-200'
+                  />
+                </div>
               </div>
             </Fade>
           </div>
-          <Fade right={true}>
+          <Fade bottom={true}>
+            <div className='flex-1 input-group space-y-2 lg:space-y-4 mx-1'>
+              <p className='font-display font-bold text-[#C4C4C4]'>Message</p>
+              <textarea
+                required
+                name='message'
+                className='w-full h-40 lg:h-[223px] text-base lg:text-lg px-3 lg:px-4 py-3 leading-relaxed rounded-xl shadow-md lg:shadow-lg border border-[#C4C4C4] focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-colors duration-200'
+              ></textarea>
+            </div>
+          </Fade>
+          <Fade bottom={true}>
             <button type='submit' className='block ml-auto mt-6 lg:mt-10'>
               <div className='btn'>
                 <div className='m-auto'>

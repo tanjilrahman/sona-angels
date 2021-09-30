@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 const Vision = () => {
   return (
     <div
-      id='vision'
+      id='angels'
       className='grid grid-cols-1 lg:grid-cols-2 items-center mt-36'
     >
       {/* Mobile images section */}
@@ -52,10 +52,10 @@ const Vision = () => {
       <div>
         <Fade left={true}>
           <p className='font-display font-semibold text-base lg:text-lg text-primary uppercase tracking-wider'>
-            Visions
+            Angels
           </p>
           <h4 className='font-display leading-normal lg:leading-normal text-3xl lg:text-5xl lg:mt-3'>
-            What’s great about the Sona Angels?
+            What’s unique about our Sona Angels?
           </h4>
         </Fade>
 

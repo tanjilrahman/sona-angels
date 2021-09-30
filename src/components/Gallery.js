@@ -14,20 +14,17 @@ const Gallery = () => {
         </Fade>
       </div>
 
-      <Fade bottom={true}>
-        <YoutubeEmbed embedId='oc31JcnWkRE' />
-        {/* <video
-          src='/videos/Sona Jewelers Chhvari IGTV V3.mp4'
-          controls='controls'
-        />
-        <video
-          src='/videos/Social Media_Sona Ad 1080p_2.mp4'
-          controls='controls'
-        />
-        <video
-          src='/videos/Sanya Jewelers Ad IG STORY V1_2.mp4'
-          controls='controls'
-        /> */}
+      <Fade left={true}>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-10'>
+          <YoutubeEmbed embedId='oc31JcnWkRE' />
+          <YoutubeEmbed embedId='FDc2PqW50dA' />
+        </div>
+      </Fade>
+      <Fade right={true}>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-10'>
+          <YoutubeEmbed embedId='HBk3bTHrnKM' />
+          <YoutubeEmbed embedId='cvD4trFUD28' />
+        </div>
       </Fade>
 
       <div className='flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0'>

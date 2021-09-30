@@ -40,11 +40,11 @@ const Header = () => {
               <span className='nav-link'>ABOUT</span>
             </a>
             <a
-              href='#vision'
+              href='#angels'
               className='relative nav hover:text-primary transition-colors duration-200'
               onClick={() => setMenuIsOpen(false)}
             >
-              <span className='nav-link'>VISIONS</span>
+              <span className='nav-link'>ANGELS</span>
             </a>
             {/* <a
             href='#testimonials'
@@ -63,7 +63,7 @@ const Header = () => {
               <span className='nav-link uppercase'>Sona Jewelers</span>
             </a>
             <a
-              href='#contact'
+              href='tel:+12013209810'
               className='btn'
               onClick={() => setMenuIsOpen(false)}
             >
@@ -99,10 +99,10 @@ const Header = () => {
             <span className='nav-link'>ABOUT</span>
           </a>
           <a
-            href='#vision'
+            href='#angels'
             className='relative nav hover:text-primary transition-colors duration-200'
           >
-            <span className='nav-link'>VISIONS</span>
+            <span className='nav-link'>ANGELS</span>
           </a>
           {/* <a
             href='#testimonials'
@@ -123,7 +123,7 @@ const Header = () => {
         <div className='w-24 lg:w-32 absolute left-1/2 translate-x-[-48px] lg:translate-x-[-64px]'>
           <img src='/sonalogofinalnew_400x.webp' alt='logo' loading='lazy' />
         </div>
-        <a href='#contact' className='hidden lg:flex btn ml-auto'>
+        <a href='tel:+12013209810' className='hidden lg:flex btn ml-auto'>
           <div className='m-auto'>
             <p>Contact Us</p>
           </div>

@@ -57,16 +57,17 @@ const About = () => {
 
       <Fade right={true} cascade duration={800}>
         <div className='mt-10 lg:mt-0'>
-          <p className='font-display font-semibold text-base lg:text-lg text-primary uppercase tracking-wider'>
-            Services
-          </p>
+          {/* <p className='font-display font-semibold text-base lg:text-lg text-primary uppercase tracking-wider'>
+            About The Company
+          </p> */}
           <h4 className='font-display leading-normal lg:leading-normal text-3xl lg:text-5xl lg:mt-3'>
-            About this campaign
+            About The Company
           </h4>
           <p className='leading-loose mt-4 lg:mt-8 lg:pr-10'>
             Founded in 1989 in Iselin, NJ, Sona Jewelers is a family-owned
-            business committed to supporting many philanthropic efforts
-            particularly those that encourage the youth and empower women.
+            business committed to encourage the youth and empowering women. We
+            support local efforts particularly in fashion, motivation, health,
+            and culture.
           </p>
           <a href='#vision' className='btn mt-10'>
             <div className='m-auto'>
