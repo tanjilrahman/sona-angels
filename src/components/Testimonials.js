@@ -20,6 +20,7 @@ const Testimonials = () => {
               autoPlay={true}
               showThumbs={false}
               showStatus={false}
+              swipeable={false}
             >
               <TestimonialCard
                 image='/images/DSCF2264.jpg'
