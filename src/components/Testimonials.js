@@ -48,6 +48,14 @@ const Testimonials = () => {
                 was that I could completely trust their team to represent my work
                 in the utmost professional manner.'
               />
+              <TestimonialCard
+                scroll={true}
+                image='/images/DSC_0519.jpg'
+                name='Hena Bajaj'
+                handel='@henabajaj'
+                profileLink='https://www.instagram.com/henabajaj/'
+                testimonial='Being someone who truly cares about my career growth and education, I have put many of my interest and passions on the side. When hearing about the Sona Angel program, I knew that this was a great way to pursue my interest in modeling and vouching for woman-empowerment. The entire Sona Jewelers team was an absolute delight to work with. I truly appreciated how understanding they were given my schedule as being a full-time employee and a part-time MBA student. Being a Sona Angel reminded me the importance of pursuing your interests and passions even if your priority is your career. We are more than our jobs and education. Thank you Sona Jewelers for the opportunities to work with you thus far!'
+              />
             </Carousel>
           </div>
         </div>

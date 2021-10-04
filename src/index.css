@@ -1011,6 +1011,9 @@ html {
 .h-\[35\%\] {
 	height: 35%;
 }
+.h-\[65\%\] {
+	height: 65%;
+}
 .h-5 {
 	height: 1.25rem;
 }
@@ -1192,6 +1195,9 @@ html {
 .overflow-x-hidden {
 	overflow-x: hidden;
 }
+.overflow-y-scroll {
+	overflow-y: scroll;
+}
 .rounded-xl {
 	border-radius: 0.75rem;
 }
@@ -1295,6 +1301,9 @@ html {
 }
 .pb-7 {
 	padding-bottom: 1.75rem;
+}
+.pb-12 {
+	padding-bottom: 3rem;
 }
 .text-left {
 	text-align: left;
@@ -1521,6 +1530,10 @@ html {
 
 	.md\:h-28 {
 		height: 7rem;
+	}
+
+	.md\:h-\[55\%\] {
+		height: 55%;
 	}
 
 	.md\:h-\[260px\] {
@@ -1869,6 +1882,9 @@ html {
 	}
   .lg\:pt-40 {
 		padding-top: 10rem;
+	}
+  .lg\:pb-14 {
+		padding-bottom: 3.5rem;
 	}
   .lg\:text-lg {
 		font-size: 1.125rem;

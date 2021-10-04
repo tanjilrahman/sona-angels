@@ -1,6 +1,17 @@
-const TestimonialCard = ({ image, testimonial, name, handel, profileLink }) => {
+const TestimonialCard = ({
+  image,
+  testimonial,
+  name,
+  handel,
+  profileLink,
+  scroll,
+}) => {
   return (
-    <div className='relative w-full h-[460px] lg:w-[476.4px] md:h-[650px]'>
+    <div
+      className={`relative w-full h-[460px] lg:w-[476.4px] md:h-[650px] ${
+        scroll && ''
+      }`}
+    >
       <img
         loading='lazy'
         src={image}
@@ -14,8 +25,10 @@ const TestimonialCard = ({ image, testimonial, name, handel, profileLink }) => {
         className='absolute top-[130px] -left-28 md:top-[235px] md:-left-56 lg:-left-40 h-16 w-16 md:h-28 md:w-28'
       />
 
-      <div className='text-left mt-3 md:mt-6 p-2 lg:p-4'>
-        <p className=' lg:leading-relaxed text-sm md:text-lg text-gray-600'>
+      <div
+        className={`text-left mt-3 md:mt-6 p-2 lg:p-4 ${'h-[65%] md:h-[55%] overflow-y-scroll pb-12 lg:pb-14'}`}
+      >
+        <p className='lg:leading-relaxed text-sm md:text-lg text-gray-600'>
           {testimonial}
         </p>
         <p className='font-display leading-none text-base md:text-xl font-semibold mt-6'>
