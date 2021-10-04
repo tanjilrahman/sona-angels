@@ -7,11 +7,7 @@ const TestimonialCard = ({
   scroll,
 }) => {
   return (
-    <div
-      className={`relative w-full h-[460px] lg:w-[476.4px] md:h-[650px] ${
-        scroll && ''
-      }`}
-    >
+    <div className='relative w-full h-[460px] lg:w-[476.4px] md:h-[650px]'>
       <img
         loading='lazy'
         src={image}
@@ -26,7 +22,9 @@ const TestimonialCard = ({
       />
 
       <div
-        className={`text-left mt-3 md:mt-6 p-2 lg:p-4 ${'h-[65%] md:h-[55%] overflow-y-scroll pb-12 lg:pb-14'}`}
+        className={`text-left mt-3 md:mt-6 p-2 lg:p-4 ${
+          scroll && 'h-[65%] md:h-[55%] overflow-y-scroll pb-12 lg:pb-14'
+        }`}
       >
         <p className='lg:leading-relaxed text-sm md:text-lg text-gray-600'>
           {testimonial}
