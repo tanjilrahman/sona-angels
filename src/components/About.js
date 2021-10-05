@@ -19,6 +19,7 @@ const About = () => {
               autoPlay={true}
               showThumbs={false}
               showStatus={false}
+              swipeable={false}
             >
               <div>
                 <img
@@ -69,9 +70,9 @@ const About = () => {
             support local efforts particularly in fashion, motivation, health,
             and culture.
           </p>
-          <a href='#vision' className='btn mt-10'>
+          <a href='#angels' className='btn mt-10'>
             <div className='m-auto'>
-              <p>Visions</p>
+              <p>Angels</p>
             </div>
           </a>
         </div>
