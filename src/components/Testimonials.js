@@ -23,14 +23,12 @@ const Testimonials = () => {
               swipeable={false}
             >
               <TestimonialCard
-                image='/images/DSCF2264.jpg'
-                name='Chhavi Verg'
-                handel='@chhaviverg'
-                profileLink='https://www.instagram.com/chhaviverg/'
-                testimonial='As a new model, I was skeptical to work with Sona Jewelers, but
-                my friends and colleagues highly recommended me to work with
-                them. Together, we managed to pull off a successful campaign
-                that performed beyond my wildest expectations!'
+              scroll={true}
+                image='/images/3R1A2349.jpg'
+                name='Nisha Pawar'
+                handel='@lovelaughmirch'
+                profileLink='https://www.instagram.com/lovelaughmirch/'
+                testimonial='It was an absolute pleasure working with Sona Jewelers. They are the jewelers we’ve shopped at for all of our family milestones so partnering with them felt so natural. The communication on deliverables was clear and timely. I truly felt they valued my work and appreciated all my creative efforts. Everyone from their staff to their marketing team was respectful and timely on all aspects of our collaboration. Our partnership is one of my favorites til date.'
               />
               <TestimonialCard
                 image='/images/IMG_6908.JPG'
@@ -38,16 +36,6 @@ const Testimonials = () => {
                 handel='@sankissedskin'
                 profileLink='https://www.instagram.com/sankissedskin/'
                 testimonial='Sona Jewelers has been a house hold name for as long as I can remember. Their quality has never diminished. Every time there’s a wedding, it’s a known thing to go to Sona to find the best pieces of jewelry for the events. Riz has also helped in taking the prestigious name forward through his own love for beautiful pieces and marketing etiquette. I can’t wait to visit again! ♥️'
-              />
-              <TestimonialCard
-                image='/images/IMG_6907.JPG'
-                name='Manya'
-                handel='@manyasaaraswat'
-                profileLink='https://www.instagram.com/manyasaaraswat/'
-                testimonial='It was a treat working for Sona Jewelers! They practically did
-                everything – with almost no time or effort for me! The best part
-                was that I could completely trust their team to represent my work
-                in the utmost professional manner.'
               />
               <TestimonialCard
                 scroll={true}
