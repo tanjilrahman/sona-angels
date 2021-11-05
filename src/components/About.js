@@ -51,7 +51,7 @@ const About = () => {
             loading='lazy'
             src='/images/calander.svg'
             alt=''
-            className='hidden lg:block absolute bottom-3 right-14'
+            className='hidden h-48 w-48 lg:block absolute bottom-3 right-14'
           />
         </div>
       </Fade>
