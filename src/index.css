@@ -1278,9 +1278,9 @@ html {
 .p-6 {
 	padding: 1.5rem;
 }
-.px-4 {
-	padding-left: 1rem;
-	padding-right: 1rem;
+.px-6 {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
 }
 .px-3 {
 	padding-left: 0.75rem;
@@ -1604,9 +1604,9 @@ html {
 		margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 	}
 
-	.md\:px-10 {
-		padding-left: 2.5rem;
-		padding-right: 2.5rem;
+	.md\:px-16 {
+		padding-left: 4rem;
+		padding-right: 4rem;
 	}
 
 	.md\:pr-4 {
